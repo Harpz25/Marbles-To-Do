@@ -119,31 +119,3 @@ export default App;
 
 
 
-
-
-
-  /* Additional explanation is in research.txt( updated  as of 14/06/2022) */
-
-/*
- .......https://codesandbox.io/s/todo-list-hooks-ebfgw?from-embed=&file=/src/ToDoForm.js.....
-
-    TO BE COMPLETED! (22/06/2022) ______ DEADLINE  : 24th JUNE!
-       TODO!!!
-
-
-       1) Clean up the doc (remove unnecessary variables)
-       2) create simple readme 
-       3) post to github
-
-
-       -> 3 main part  :  
-                          DONE  ----> password & login ( using localStorage Session)
-                          TODO!!----> Todo list function
-                          TODO!!----> Display list of Todo
-
-    Refer: https://www.educative.io/blog/react-hooks-tutorial-todo-list
-
-*/
-
-
-
