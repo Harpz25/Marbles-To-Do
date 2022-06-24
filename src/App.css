@@ -1,0 +1,103 @@
+.App
+{
+  height:100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.AppLogo
+{
+  height: 10vh;
+  border-radius : 1rem;
+  box-shadow:  0.1rem 0.2rem cyan;  
+}
+
+.AppHeader
+{
+  font-family: "Lucida Sans", Helvetica, sans-serif;
+  background-color: mintcream;
+  position:relative;
+  height: 20vh;
+  top :0%;
+  width: 100% ;
+  font-size: 1rem;
+  color: cyan;
+}
+
+.AppHeader h1{font-size: 4rem; margin-top: 1rem;}
+
+main
+{
+  font-family: "Lucida Sans Regular", Helvetica, sans-serif;
+  color: gray ;
+  max-height: 70vh;
+  width:auto;
+  margin: 5rem;
+  padding: 1rem 2rem;
+  border-spacing: 0;
+  border-style:solid;
+  border-width: 0.2rem;
+  border-color: turquoise;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.sessionClear
+{ 
+  font-size: 1rem;
+  margin: 0.1rem 0rem 1rem;
+  color: dimgray;
+  border: none;
+  background-color: cyan;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.itemNotTODO{  opacity: 0.5;}
+
+.itemTODO{  font-weight: bold;}
+
+.itemNotTODO::after{  content: " ✅ ";}
+
+form
+{  
+  display: inline-block;
+  margin: 1rem 0rem;
+}
+
+input[type=text]
+{
+  padding: 0.5rem;
+  margin: 0.5rem 0.25rem;
+  border: 0.1rem solid #D3D3D3;
+  border-radius: 0.3rem;
+}
+
+footer
+{
+    color: cyan;
+    font-family: Verdana, sans-serif;
+    background-color: mintcream; 
+    min-height: 10vh;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: auto ;
+}
+
+.loadMarbles
+{ 
+  font-family:  Arial, Helvetica, sans-serif, ;
+  margin-top: 3rem;
+}
+
+.loadMarbles h2
+{
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+
