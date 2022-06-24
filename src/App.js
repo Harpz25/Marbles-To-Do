@@ -20,11 +20,8 @@ function App() {
              <Route path ="session" element = {<Session/>} />
              <Route path="loaddata" element={<LoadDataRoute  />} />
         </Routes>
-
-    </div>
-  );
+    </div> );
 }
-
 
 
 function Home() {
@@ -42,10 +39,8 @@ function Home() {
       </main>
       <footer> Marbles To Do | Your To-Do List </footer>
 
-    </>
-  );
+    </>);
 }
-
 
 
 function Session()
@@ -67,8 +62,7 @@ function Session()
           {console.log(termsAccepted)}
         </main>  
         <footer> <nav> Return To <Link to="/">Homepage</Link> </nav>  </footer>
-       </>
-    );
+       </>);
   }
   else
   {   
@@ -83,21 +77,18 @@ function Session()
             </nav>
            </main>  
            <footer> <nav> Return To <Link to="/">Homepage</Link> </nav>  </footer>
-        </>
-    );
+        </>);
   }
 }
 
 
-
 function LoadDataRoute()
 {
-
    return(
     <>
     <div className = "loadMarbles"> 
       <h2 > To Do List </h2> 
-    <br/>
+         <br/>
          <p>✍️ To add task, type in your task in the textbox provided and then click the "Add Task" button <br/>
          ✍️ To remove task, select task shown from the list and then click the "Remove Task" button</p>
         <br/>
@@ -107,14 +98,12 @@ function LoadDataRoute()
       <button className = "sessionClear" onClick={() => {localStorage.clear(); alert("Your data have been successfully deleted!"); }}>
             clear my data 
       </button>
-    </div>
+   </div>
     <footer> <nav> Return To <Link to="/">Homepage</Link> </nav>  </footer>
-    
-    </>
-
-   );
-
+    </>);
 }
+
+
 export default App;
 
 
