@@ -7,7 +7,6 @@ const AddForm = ({handleAdd}) =>
    const [things, setThings] = useState('');
    
    const handleSubmit = (event) =>{event.preventDefault(); handleAdd(things);setThings("");};
-   
 
    return(
       <>
@@ -17,9 +16,9 @@ const AddForm = ({handleAdd}) =>
         <br/>
         <button type="submit" className= "btn btn-outline-success" > Add Task</button>
       </form>
-       </>
-   );
+       </>);
 }
+
 
 export default AddForm;
 
