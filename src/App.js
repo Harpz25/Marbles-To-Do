@@ -24,7 +24,8 @@ function App() {
 }
 
 
-function Home() {
+function Home()
+{
   return (
     <>
       <main>
@@ -38,7 +39,6 @@ function Home() {
           </nav>
       </main>
       <footer> Marbles To Do | Your To-Do List </footer>
-
     </>);
 }
 
